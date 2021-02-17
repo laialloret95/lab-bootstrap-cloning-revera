@@ -64,11 +64,13 @@ nav ul li {
 #latest-projects {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #latest-articles {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 /* Footer */
@@ -132,6 +134,19 @@ nav ul li {
     #intro p {
         font-size: 1.2rem;
         text-align: center;
+    }
+
+    #services__container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        margin: 0 46px;
+    }
+
+    #footer_container {
+        padding: 0 46px 30px 46px;
     }
 }
 

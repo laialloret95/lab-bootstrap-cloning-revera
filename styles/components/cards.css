@@ -39,7 +39,7 @@
 
 /* PROJECTS */
 .projects__cards__container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -63,7 +63,7 @@
 
 /* ARTICLES */
 .articles__cards__container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -102,7 +102,7 @@
 /* FOOTER */
 .footer__card {
     padding: 0 15px;
-    width: 50vw;
+    width: 50%;
 }
 
 .footer__card__title {
@@ -126,4 +126,14 @@
 
 .copyright p {
     padding: 10px 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .project__card {
+        flex-basis: 25%;
+    }
+
+    .article__card {
+        flex-basis: 25%;
+    }
 }
