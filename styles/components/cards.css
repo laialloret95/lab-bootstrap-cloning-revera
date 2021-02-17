@@ -1,6 +1,6 @@
 .service__card {
     color: white;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 .service__card__title {
@@ -135,5 +135,11 @@
 
     .article__card {
         flex-basis: 25%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .footer__card {
+        width: 25%;
     }
 }
