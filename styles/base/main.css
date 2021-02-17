@@ -15,3 +15,56 @@
     min-height: 100vh;
     padding: 20px;
   }
+
+  /* Navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: none;
+}
+
+/* Header */
+#intro {
+    display: none;
+}
+
+#services__container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Main Section */
+
+#latest-projects {
+    height:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#latest-articles {
+    height: 1323px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul li {
+        list-style: none;
+        display: inline;
+    }
+
+    #intro {
+        height: 365px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
