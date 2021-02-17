@@ -158,6 +158,10 @@ nav ul li {
         padding: 19px 10px;
     }
 
+    nav ul li:first-child {
+        color: red;
+    }
+
     nav {
         justify-content: space-around;
     }
