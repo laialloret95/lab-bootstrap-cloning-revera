@@ -1,28 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Montserrat:wght@300;400;700&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
   
-  html {
+html {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  .container {
-    background-color:white;
+}
+
+.container {
+    background-color: transparent;
     min-width: 100vw;
     min-height: 100vh;
     padding: 20px;
-  }
+}
+
+body {
+    line-height: 1.4;
+}
 
   /* Navbar */
 
 nav {
+    height: 130px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+nav h2 {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 nav ul li {
@@ -35,13 +45,26 @@ nav ul li {
 }
 
 #services__container {
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
+    background-color: red;
+    padding: 40px 0;
 }
 
 /* Main Section */
+section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 #latest-projects {
     height:600px;
@@ -53,6 +76,14 @@ nav ul li {
     height: 1323px;
     display: flex;
     flex-direction: column;
+}
+
+/* Footer */
+
+footer {
+    height: 690px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) {
