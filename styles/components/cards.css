@@ -118,16 +118,6 @@
     border-bottom: solid .5px rgba(211, 211, 211, 0.2);
 }
 
-.copyright {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-}
-
-.copyright p {
-    padding: 10px 10px;
-}
-
 @media only screen and (min-width: 768px) {
     .project__card {
         flex-basis: 25%;
