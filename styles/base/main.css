@@ -92,16 +92,6 @@ nav ul li {
 }
 
 @media only screen and (min-width: 768px) {
-    nav ul li {
-        list-style: none;
-        display: inline;
-        padding: 19px 10px;
-    }
-
-    nav {
-        justify-content: space-around;
-    }
-
     #intro .content {
         display: flex;
         flex-direction: column;
@@ -158,5 +148,17 @@ nav ul li {
 
     #copyright {
         padding: 30px 46px 30px 46px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    nav ul li {
+        list-style: none;
+        display: inline;
+        padding: 19px 10px;
+    }
+
+    nav {
+        justify-content: space-around;
     }
 }
