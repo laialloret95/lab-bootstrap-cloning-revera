@@ -1,12 +1,13 @@
 .btn {
     margin: 10px auto;
-    padding: 5 0;
-    width: 150px;
+    padding: 10px 30px;
     font: inherit;
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 0;
-    background: transparent;
+    background:rgba(255,255,255, 0.3);
     text-transform: uppercase;
     box-shadow: none;
+    border: 1px solid white;
+    color: white;
 }
